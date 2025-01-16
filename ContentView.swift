@@ -18,6 +18,8 @@ struct ContentView: View {
                     .font(.title)
                 Text("Створено з SwiftUI")
                     .font(.subheadline)
+                Text("Програма для демонстрації SwiftUI")
+                    .foregroundStyle(.cyan)
             }
         }
         .padding()
