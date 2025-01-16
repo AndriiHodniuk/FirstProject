@@ -13,7 +13,12 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("My firs iOS app")
+            VStack {
+                Text("Мій перший iOS додаток")
+                    .font(.title)
+                Text("Створено з SwiftUI")
+                    .font(.subheadline)
+            }
         }
         .padding()
     }
